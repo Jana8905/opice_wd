@@ -8,3 +8,28 @@
 .jedinci{
     color: rgb(54, 101, 54);
 }
+
+
+.card
+{color:    rgb(111, 138, 111); 
+}
+
+.galerie{
+    font-size: 35px;
+     color: rgb(54, 101, 54);
+
+}
+.opicky{
+    background-color: rgb(111, 138, 111);  
+padding-top: 20px;
+padding-bottom: 10px;
+border-radius: 5px;
+}
+
+.nadpis{
+    background-color:rgb(111, 138, 111);  
+}
+
+.footer{
+    color: rgb(172, 195, 172);
+}
