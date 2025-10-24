@@ -1,35 +1,58 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
-    margin: 0
-;
+    margin: 0;
 }
 
-.jedinci{
+.jedinci {
     color: rgb(54, 101, 54);
 }
 
 
-.card
-{color:    rgb(111, 138, 111); 
-}
 
-.galerie{
+
+.galerie {
     font-size: 35px;
-     color: rgb(54, 101, 54);
+    color: rgb(54, 101, 54);
 
 }
-.opicky{
-    background-color: rgb(111, 138, 111);  
-padding-top: 20px;
-padding-bottom: 10px;
-border-radius: 5px;
+
+.opicky {
+    background-color: rgb(199, 248, 199);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
 }
 
-.nadpis{
-    background-color:rgb(111, 138, 111);  
+.nadpis {
+    background-color: rgb(177, 255, 177);
+    color: white;
 }
 
-.footer{
-    color: rgb(172, 195, 172);
+.footer {
+    color: rgb(2, 16, 2);
+}
+
+
+.nadpisek {
+    background-color: rgb(197, 217, 179);
+}
+
+.mlade {
+    background-color: rgb(197, 217, 179);
+}
+
+.barva {
+    color: black;
+}
+
+.rezervace {
+    color: red;
+}
+
+.chov{
+    font-size: 20px;
 }
