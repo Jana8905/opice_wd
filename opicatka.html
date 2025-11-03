@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>opicatka</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -28,13 +29,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="NaseZvirata.html">Naše zvířata</a>
+                        <a class="nav-link  active" href="NaseZvirata.html">Naše zvířata</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">O plemeni & Péče</a>
+                        <a class="nav-link  active" href="Oplemeni.html">O plemeni & Péče</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-disabled="true">Kontakt & Rezervace</a>
+                        <a class="nav-link  active" aria-disabled="true">Kontakt & Rezervace</a>
                     </li>
                 </ul>
             </div>
@@ -44,81 +45,153 @@
         <h1>Dostupná mláďata</h1>
         <div class="row mt-5">
             <div class="col">
-                <div class="card" style="width: 22rem;">
-                    <img src="images/mlade.jpg" class="card-img-top" alt="...">
+                <div class="card karta h-100" style="width: 25rem;">
+                    <img src="images/mlade.jpg" class="card-img-top " alt="...">
                     <div class="card-body mlade">
                         <h5 class="card-title rezervace">V NOVÉ RODINĚ</h5>
                         <p class="card-text barva">Some quick example text to build on the card title and make up the
                             bulk of
                             the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-light">REZERVOVAT</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 22rem;">
-                    <img src="images/makak3.jpg" class="card-img-top" alt="...">
+            <div class="col  karta">
+                <div class="card h-100" style="width: 25rem;">
+                    <img src="images/makak3.jpg" class="card-img-top h-100" alt="...">
                     <div class="card-body mlade">
                         <h5 class="card-title rezervace">VOLNÉ</h5>
                         <p class="card-text barva">Some quick example text to build on the card title and make up the
                             bulk of
                             the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-light">REZERVOVAT</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 22rem;">
-                    <img src="images/mlade2.jpg" class="card-img-top" alt="...">
+            <div class="col karta">
+                <div class="card  h-100 " style="width: 25rem;">
+                    <img src="images/OIP.webp" class="card-img-top h-100" alt="...">
                     <div class="card-body mlade">
                         <h5 class="card-title rezervace">PRÁVĚ ZAREZERVOVÁNO</h5>
                         <p class="card-text barva">Some quick example text to build on the card title and make up the
                             bulk of
                             the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-light">ZAMLUVENO</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="container text-center mt-5">
-         <h2>BRZY PŘIJDE NA SVĚT</h2>
-        <div class="row row-cols-4">
-           
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
+
+        <h2 class="vrhy">Planované vrhy</h2>
+        <div class="d-flex align-items-center">
+            <div class="card mt-5 monkey" style="width: 38rem;">
+                <img src="images/rodicemaki.webp" class="card-img-top" alt="opicka">
+                <div class="card-body">
+                    <div class="card-text">
+                        <p> Odhadovaný termín narození: <b>2.5.2026</b> <i class="bi bi-gender-female"></i></p>
+                        <p>Očekávané vlastnosti:<b> společenská, přátelská, mazlivá </b></p>
                     </div>
                 </div>
             </div>
-            <div class="col">Column <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
+            <div class="card mt-5 monkey" style="width: 40rem;">
+                <img src="images/koko.webp" class="card-img-top" alt="opicka">
+                <div class="card-body">
+                    <div class="card-text">
+                        <p> Odhadovaný termín narození: <b>8.1.2026</b> <i class="bi bi-gender-male"></i></p>
+                        <p>Očekávané vlastnosti:<b>zlobivá, chrání své teritorium, chytrá a bystrá</b> </p>
                     </div>
                 </div>
-            </div>
-            <div class="col">Column<div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">Column<div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
-                    </div>
-                </div>
+
             </div>
         </div>
+
+        <div class="container text-center">
+            <div class=" cena ">
+                <h1>
+                    CO JE V CENĚ
+                    </h>
+            </div>
+            <div class="row d-flex ">
+                <div class="col-md-2 ahoj">
+                    <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
+                        <i class="bi bi-bookmark-check me-2"></i> Čip
+                    </div>
+                </div>
+                <div class="col-md-2 ahoj">
+                    <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
+                        <i class="bi bi-file-medical-fill"></i> Očkování
+                    </div>
+                </div>
+                <div class="col-md-2 ahoj">
+                    <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
+                        <i class="bi bi-passport"></i> Pas
+                    </div>
+                </div>
+                <div class="col-md-3 ahoj">
+                    <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
+                        <i class="bi bi-gift"></i> Startovací balíček
+                    </div>
+                </div>
+                <div class="col-md-3 ahoj">
+                    <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4 ">
+                        <i class="bi bi-info"></i> Chovatelský servis
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container ">
+        <div class="prubeh-opicky ">
+            <img src="images/prochazka.jpg" class="img-thumbnail prubeh" alt="probeh">
+            <div class="odber">
+                <h2 class="odbery">Odběr</h2>
+                <p> <b> 1. krok</b> Kontaktujte nás a domluvte si návštěvu nejlépe měsíc dopředu.</p>
+
+                <p> <b>2. krok</b> Odběr lze umožnit až po druhé návštěvě opičky kde je potřeba nám napsat na email nebo
+                    zavolat.</p>
+                <p> <b>3. krok</b> Zálohu je možné zaplatit nejpozěji po první návštěvě opičky</p>
+                <p> Jelikož nám záleží na opičce budeme je navštěvovat náhodně jednou za rok. Pokud by se opičce
+                    nedařilo,
+                    bude odebrana a peníze vám budou vráceny</p>
+                <p> Kontakt na nás: +420 774 258 954 </p>
+                <p> instagram: makak_station</p>
+                <p> email: makakstanice@gmail.com</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="animovana">
+            <img src="images/ahoj.png" class="opickanavetvi" alt="">
+        </div>
+        <div class="textik w-50">
+            <div class="platba">
+                <h4>Cena a platby <i class="bi bi-cash"></i></h4>
+                <p>Cena makaka se liší podle druhu a věku. Vždy ale jde o vyšší částku (desítky tisíc Kč).
+                    Platba probíhá po podpisu smlouvy, záloha je nutná předem.</p>
+            </div>
+            <div class="platba">
+                <h4>Doprava <i class="bi bi-car-front-fill"></i></h4>
+                <p>Zvířata nepřeposíláme. Makaka si vyzvednete osobně u nás ve stanici, nebo vám dopravu zajistí
+                    specializovaná firma s licencí.</p>
+            </div>
+            <div class="platba">
+                <h4>Výbava na první dny <i class="bi bi-backpack2-fill"></i></h4>
+                <p>Potřebujete bezpečnou klec nebo voliéru, misky na vodu a jídlo, teplo, hračky a místo na odpočinek.
+                    První dny doporučujeme držet stejnou stravu, na jakou je makak zvyklý.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+
+        <p class="footer text-center pt-5">Vase milovana stanice Makakovo</p>
+
     </div>
 </body>
 

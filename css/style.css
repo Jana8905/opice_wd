@@ -5,7 +5,7 @@
 }
 
 .jedinci {
-    color: rgb(54, 101, 54);
+    color: rgb(255, 244, 209);
 }
 
 
@@ -13,12 +13,12 @@
 
 .galerie {
     font-size: 35px;
-    color: rgb(54, 101, 54);
+ 
 
 }
 
 .opicky {
-    background-color: rgb(199, 248, 199);
+    background-color: rgb(255, 244, 209);
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -28,7 +28,7 @@
 }
 
 .nadpis {
-    background-color: rgb(177, 255, 177);
+    background-color: rgb(255, 244, 209);
     color: white;
 }
 
@@ -38,11 +38,11 @@
 
 
 .nadpisek {
-    background-color: rgb(197, 217, 179);
+    background-color:  rgb(255, 244, 209);
 }
 
 .mlade {
-    background-color: rgb(197, 217, 179);
+    background-color : rgb(255, 244, 209);
 }
 
 .barva {
@@ -50,9 +50,119 @@
 }
 
 .rezervace {
-    color: red;
+    color: rgb(66, 183, 53);
 }
 
 .chov{
     font-size: 20px;
+}
+
+.monkey{
+text-align: center;
+gap:10px ;
+margin-left: 10px;
+}
+.karta{margin-top: 10px;}
+
+.vrhy{
+    font-size: 50px;
+}
+
+.card-body{
+    background-color: rgb(255, 244, 209) ;
+}
+
+
+
+
+.cena{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+.tlacitko{
+    margin-top: 18px;
+    
+}
+
+.ne{
+    background-color: red;
+}
+
+.prubeh{
+    margin-top: 90px;
+    height: 520px;
+}
+.odber{
+     margin-top: 90px;
+     margin-left: 50px;
+}
+.odbery{
+    margin-bottom: 30px;
+}
+@media (max-width: 780px)
+{
+    .prubeh-opicky{
+       display: flex;
+      flex-direction: column;
+    }
+
+}
+.prubeh-opicky{
+
+display: flex;
+}
+
+.ahoj{
+margin-bottom: 10px;
+}
+
+.animovana{
+    position: absolute;
+}
+
+.opickanavetvi{
+    position: relative;
+    width: 500px;
+  top: -30px;
+  left: 700px;
+}
+
+.textik{
+    margin-top: 100px;
+    border: 5px solid  rgb(255, 244, 209);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.pece{
+    background-image: url(mezinami.jpg);
+     background-size: cover;   
+     height: 700px;
+
+    
+}
+.mezinami{
+    font-size: 90px;
+    padding-top: 120px;
+    padding-bottom: 300px;
+    color: rgb(255, 244, 209);
+}
+
+@media (max-width: 780px)
+{
+    .potreby{
+       display: flex;
+      flex-direction: column;
+    }
+
+}
+
+.potreby{ max-width: 100%;
+display: flex;
+margin-top: 100px;}
+
+.aha{
+   margin-left: 10px;
 }
