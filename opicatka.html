@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,17 +23,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg nadpisek">
-        <div class="container">
+     <nav class="navbar navbar-expand-lg nadpisek">
+        <div class="container ">
             <a class="navbar-brand" href="#">Makakovo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                  <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="opicatka.html">Opicatka</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  active" href="NaseZvirata.html">Naše zvířata</a>
@@ -42,11 +52,11 @@
         </div>
     </nav>
     <div class="container text-center mt-5">
-        <h1>Dostupná mláďata</h1>
+        <h1 class="mladata">Dostupná mláďata</h1>
         <div class="row mt-5">
-            <div class="col">
-                <div class="card karta h-100" style="width: 25rem;">
-                    <img src="images/mlade.jpg" class="card-img-top " alt="...">
+            <div class="col-md-4">
+                <div class="card karta h-100">
+                    <img src="images/mlade.jpg" class="card-img-top object-fit-cover " alt="...">
                     <div class="card-body mlade">
                         <h5 class="card-title rezervace">V NOVÉ RODINĚ</h5>
                         <p class="card-text barva">Some quick example text to build on the card title and make up the
@@ -57,8 +67,8 @@
                 </div>
             </div>
             <div class="col  karta">
-                <div class="card h-100" style="width: 25rem;">
-                    <img src="images/makak3.jpg" class="card-img-top h-100" alt="...">
+                <div class="card h-100">
+                    <img src="images/makak3.jpg" class="card-img-top h-100 object-fit-cover" alt="...">
                     <div class="card-body mlade">
                         <h5 class="card-title rezervace">VOLNÉ</h5>
                         <p class="card-text barva">Some quick example text to build on the card title and make up the
@@ -69,8 +79,8 @@
                 </div>
             </div>
             <div class="col karta">
-                <div class="card  h-100 " style="width: 25rem;">
-                    <img src="images/OIP.webp" class="card-img-top h-100" alt="...">
+                <div class="card  h-100 ">
+                    <img src="images/OIP.webp" class="card-img-top h-100 object-fit-cover" alt="...">
                     <div class="card-body mlade">
                         <h5 class="card-title rezervace">PRÁVĚ ZAREZERVOVÁNO</h5>
                         <p class="card-text barva">Some quick example text to build on the card title and make up the
@@ -85,8 +95,8 @@
 
     <div class="container text-center mt-5">
 
-        <h2 class="vrhy">Planované vrhy</h2>
-        <div class="d-flex align-items-center">
+        <h2 class="mladata">Planované vrhy</h2>
+        <div class="d-flex align-items-center ">
             <div class="card mt-5 monkey" style="width: 38rem;">
                 <img src="images/rodicemaki.webp" class="card-img-top" alt="opicka">
                 <div class="card-body">
@@ -109,33 +119,33 @@
         </div>
 
         <div class="container text-center">
-            <div class=" cena ">
+            <div class="cena">
                 <h1>
                     CO JE V CENĚ
-                    </h>
+                </h1>
             </div>
             <div class="row d-flex ">
-                <div class="col-md-2 ahoj">
+                <div class="col-md-2 ahoj col-lg-4">
                     <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
                         <i class="bi bi-bookmark-check me-2"></i> Čip
                     </div>
                 </div>
-                <div class="col-md-2 ahoj">
+                <div class="col-md-2 ahoj col-lg-4">
                     <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
                         <i class="bi bi-file-medical-fill"></i> Očkování
                     </div>
                 </div>
-                <div class="col-md-2 ahoj">
+                <div class="col-md-2 ahoj col-lg-4">
                     <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
                         <i class="bi bi-passport"></i> Pas
                     </div>
                 </div>
-                <div class="col-md-3 ahoj">
+                <div class="col-md-3 ahoj col-lg-4">
                     <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4">
                         <i class="bi bi-gift"></i> Startovací balíček
                     </div>
                 </div>
-                <div class="col-md-3 ahoj">
+                <div class="col-md-3 ahoj col-lg-4">
                     <div class="p-2 bg-light border border-3 border-dark-subtle rounded-1 text-center fw-bold fs-4 ">
                         <i class="bi bi-info"></i> Chovatelský servis
                     </div>
@@ -145,45 +155,51 @@
 
         </div>
     </div>
-    <div class="container ">
-        <div class="prubeh-opicky ">
-            <img src="images/prochazka.jpg" class="img-thumbnail prubeh" alt="probeh">
-            <div class="odber">
-                <h2 class="odbery">Odběr</h2>
-                <p> <b> 1. krok</b> Kontaktujte nás a domluvte si návštěvu nejlépe měsíc dopředu.</p>
+    <div class="container">
+        <div class="aha">
+            <div class="prubeh-opicky ">
+                <img src="images/prochazka.jpg" class="img-thumbnail prubeh" alt="probeh">
+                <div class="odber">
+                    <h2 class="mladata">Odběr</h2>
+                    <p> <b> 1. krok</b> Kontaktujte nás a domluvte si návštěvu nejlépe měsíc dopředu.</p>
 
-                <p> <b>2. krok</b> Odběr lze umožnit až po druhé návštěvě opičky kde je potřeba nám napsat na email nebo
-                    zavolat.</p>
-                <p> <b>3. krok</b> Zálohu je možné zaplatit nejpozěji po první návštěvě opičky</p>
-                <p> Jelikož nám záleží na opičce budeme je navštěvovat náhodně jednou za rok. Pokud by se opičce
-                    nedařilo,
-                    bude odebrana a peníze vám budou vráceny</p>
-                <p> Kontakt na nás: +420 774 258 954 </p>
-                <p> instagram: makak_station</p>
-                <p> email: makakstanice@gmail.com</p>
+                    <p> <b>2. krok</b> Odběr lze umožnit až po druhé návštěvě opičky kde je potřeba nám napsat na email
+                        nebo
+                        zavolat.</p>
+                    <p> <b>3. krok</b> Zálohu je možné zaplatit nejpozěji po první návštěvě opičky</p>
+                    <p> Jelikož nám záleží na opičce budeme je navštěvovat náhodně jednou za rok. Pokud by se opičce
+                        nedařilo,
+                        bude odebrana a peníze vám budou vráceny</p>
+                    <p> Kontakt na nás: +420 774 258 954 </p>
+                    <p> instagram: makak_station</p>
+                    <p> email: makakstanice@gmail.com</p>
 
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="animovana">
-            <img src="images/ahoj.png" class="opickanavetvi" alt="">
-        </div>
-        <div class="textik w-50">
-            <div class="platba">
-                <h4>Cena a platby <i class="bi bi-cash"></i></h4>
-                <p>Cena makaka se liší podle druhu a věku. Vždy ale jde o vyšší částku (desítky tisíc Kč).
-                    Platba probíhá po podpisu smlouvy, záloha je nutná předem.</p>
+    <div class="container ">
+        <div class="aha">
+            <div class="animovana">
+                <img src="images/ahoj.png" class="opickanavetvi" alt="">
             </div>
-            <div class="platba">
-                <h4>Doprava <i class="bi bi-car-front-fill"></i></h4>
-                <p>Zvířata nepřeposíláme. Makaka si vyzvednete osobně u nás ve stanici, nebo vám dopravu zajistí
-                    specializovaná firma s licencí.</p>
-            </div>
-            <div class="platba">
-                <h4>Výbava na první dny <i class="bi bi-backpack2-fill"></i></h4>
-                <p>Potřebujete bezpečnou klec nebo voliéru, misky na vodu a jídlo, teplo, hračky a místo na odpočinek.
-                    První dny doporučujeme držet stejnou stravu, na jakou je makak zvyklý.</p>
+            <div class="textik w-50">
+                <div class="platba">
+                    <h4>Cena a platby <i class="bi bi-cash"></i></h4>
+                    <p>Cena makaka se liší podle druhu a věku. Vždy ale jde o vyšší částku (desítky tisíc Kč).
+                        Platba probíhá po podpisu smlouvy, záloha je nutná předem.</p>
+                </div>
+                <div class="platba">
+                    <h4>Doprava <i class="bi bi-car-front-fill"></i></h4>
+                    <p>Zvířata nepřeposíláme. Makaka si vyzvednete osobně u nás ve stanici, nebo vám dopravu zajistí
+                        specializovaná firma s licencí.</p>
+                </div>
+                <div class="platba">
+                    <h4>Výbava na první dny <i class="bi bi-backpack2-fill"></i></h4>
+                    <p>Potřebujete bezpečnou klec nebo voliéru, misky na vodu a jídlo, teplo, hračky a místo na
+                        odpočinek.
+                        První dny doporučujeme držet stejnou stravu, na jakou je makak zvyklý.</p>
+                </div>
             </div>
         </div>
     </div>
