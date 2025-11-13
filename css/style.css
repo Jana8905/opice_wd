@@ -164,6 +164,7 @@ display: flex;
 margin-top: 100px;}
 
 .aha{
+    margin-top: 10px;
    margin-left: 10px;
     font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
@@ -212,4 +213,22 @@ margin-top: 100px;}
   font-style: normal;
   }
 
-  
+
+@media (max-width: 780px){
+    .takjo{
+        display: flex;
+        flex-direction: column;
+      text-align: center;
+
+    }
+    .tak{
+        margin-top: 40px;
+      
+    }
+}
+
+.takjo{
+    margin-top: 4px;
+    display: flex;
+    text-align: center;
+}
