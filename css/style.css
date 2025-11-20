@@ -13,7 +13,7 @@
 
 .galerie {
     font-size: 35px;
- 
+
 
 }
 
@@ -38,11 +38,11 @@
 
 
 .nadpisek {
-    background-color:  rgb(255, 244, 209);
+    background-color: rgb(255, 244, 209);
 }
 
 .mlade {
-    background-color : rgb(255, 244, 209);
+    background-color: rgb(255, 244, 209);
 }
 
 .barva {
@@ -53,185 +53,209 @@
     color: rgb(66, 183, 53);
 }
 
-.chov{
+.chov {
     font-size: 20px;
 }
 
-.monkey{
-text-align: center;
-gap:10px ;
-margin-left: 10px;
+.monkey {
+    text-align: center;
+    gap: 10px;
+    margin-left: 10px;
 }
-.karta{margin-top: 10px;}
 
-.vrhy{
+.karta {
+    margin-top: 10px;
+}
+
+.vrhy {
     font-size: 50px;
 }
 
-.card-body{
-    background-color: rgb(255, 244, 209) ;
+.card-body {
+    background-color: rgb(255, 244, 209);
 }
 
 
 
 
-.cena{
+.cena {
     margin-top: 50px;
     margin-bottom: 50px;
-  
+
 }
 
-.tlacitko{
+.tlacitko {
     margin-top: 18px;
-    
+
 }
 
-.ne{
+.ne {
     background-color: red;
 }
 
-.prubeh{
+.prubeh {
     margin-top: 90px;
     height: 520px;
 }
-.odber{
-     margin-top: 90px;
-     margin-left: 50px;
+
+.odber {
+    margin-top: 90px;
+    margin-left: 50px;
 }
-.odbery{
+
+.odbery {
     margin-bottom: 30px;
 }
-@media (max-width: 780px)
-{
-    .prubeh-opicky{
-       display: flex;
-      flex-direction: column;
+
+@media (max-width: 780px) {
+    .prubeh-opicky {
+        display: flex;
+        flex-direction: column;
     }
 
 }
-.prubeh-opicky{
 
-display: flex;
+.prubeh-opicky {
+
+    display: flex;
 }
 
-.ahoj{
-margin-bottom: 10px;
+.ahoj {
+    margin-bottom: 10px;
 }
 
-.animovana{
+.animovana {
     position: absolute;
 }
 
-.opickanavetvi{
+.opickanavetvi {
     position: relative;
     width: 500px;
-  top: -30px;
-  left: 700px;
+    top: -30px;
+    left: 700px;
 }
 
-.textik{
+.textik {
     margin-top: 100px;
-    border: 5px solid  rgb(255, 244, 209);
+    border: 5px solid rgb(255, 244, 209);
     border-radius: 4px;
     padding: 30px;
 }
 
-.pece{
+.pece {
     background-image: url(mezinami.jpg);
-     background-size: cover;   
-     height: 700px;
+    background-size: cover;
+    height: 700px;
 
-    
+
 }
-.mezinami{
+
+.mezinami {
     font-size: 90px;
     padding-top: 120px;
     padding-bottom: 300px;
     color: rgb(255, 244, 209);
 }
 
-@media (max-width: 780px)
-{
-    .potreby{
-       display: flex;
-      flex-direction: column;
-    }
-
-}
-
-.potreby{ max-width: 100%;
-display: flex;
-margin-top: 100px;}
-
-.aha{
-    margin-top: 10px;
-   margin-left: 10px;
-    font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-.nadpisek{
-   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-.galerie{
-     font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-.mladata{
-    font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal; 
-}
-.cena{ font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;}
-
-  .mezinami{ font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;}
-
-  .textt{
-     font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  }
-   .ahoj{
-     font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  }
-
-
-@media (max-width: 780px){
-    .takjo{
+@media (max-width: 780px) {
+    .potreby {
         display: flex;
         flex-direction: column;
-      text-align: center;
+    }
+
+}
+
+.potreby {
+    max-width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.aha {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nadpisek {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.galerie {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.mladata {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.cena {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.mezinami {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.textt {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.ahoj {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+@media (max-width: 780px) {
+    .takjo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
 
     }
-    .tak{
+
+    .tak {
         margin-top: 40px;
-      
+
     }
 }
 
-.takjo{
+.takjo {
     margin-top: 4px;
     display: flex;
     text-align: center;
 }
 
-.jupi{
-    color: grey;}
+.jupi {
+    color: grey;
+}
+
+@media (min-width: 1200px) {
+    .col-xxl-20 {
+        width: 20%;
+    }
+}
