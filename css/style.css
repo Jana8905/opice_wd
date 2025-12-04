@@ -5,7 +5,7 @@
 }
 
 .jedinci {
-    color: rgb(255, 244, 209);
+    color: rgb(255, 248, 224);
 }
 
 
@@ -18,7 +18,7 @@
 }
 
 .opicky {
-    background-color: rgb(255, 244, 209);
+    background-color:rgb(255, 248, 224);
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -28,7 +28,7 @@
 }
 
 .nadpis {
-    background-color: rgb(255, 244, 209);
+    background-color: rgb(255, 248, 224);
     color: white;
 }
 
@@ -38,11 +38,11 @@
 
 
 .nadpisek {
-    background-color: rgb(255, 244, 209);
+    background-color: rgb(255, 248, 224);
 }
 
 .mlade {
-    background-color: rgb(255, 244, 209);
+    background-color:rgb(255, 248, 224);
 }
 
 .barva {
@@ -72,7 +72,7 @@
 }
 
 .card-body {
-    background-color: rgb(255, 244, 209);
+    background-color: rgb(255, 248, 224);
 }
 
 
@@ -137,7 +137,7 @@
 
 .textik {
     margin-top: 100px;
-    border: 5px solid rgb(255, 244, 209);
+    border: 5px solidrgb(255, 248, 224);
     border-radius: 4px;
     padding: 30px;
 }
@@ -154,7 +154,7 @@
     font-size: 90px;
     padding-top: 120px;
     padding-bottom: 300px;
-    color: rgb(255, 244, 209);
+    color: rgb(255, 248, 224);
 }
 
 @media (max-width: 780px) {
@@ -259,3 +259,98 @@
         width: 20%;
     }
 }
+
+.tlacitko-mladata{
+    
+    max-width: 300px;
+    background-color: rgb(255, 196, 0);
+}
+
+.tlacitko-chov{
+       max-width: 150px;
+    background-color:rgb(255, 196, 0);
+}
+.tlacitka{
+
+  gap: 50px;
+}
+
+
+.laska{
+    font-size: 30px;
+}
+
+.odber-section{
+    margin-top: 200px;
+}
+.opice-sekce{
+    margin-top: 100px;
+}
+.duvera{
+     margin-top: -50px;
+     margin-bottom: 100px;
+text-align: center;
+
+
+}
+.kontaktafoto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.leva-sekce {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.certifikat {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.reference blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+
+.spirala{
+    position: absolute;
+}
+.spirala-footer{
+    position: relative;
+    top: -550px;
+left: 400px;
+}
+.reference{
+    margin-top: 50px;
+}
+
+.karta-kontakt{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+
+@media (min-width: 1200px) {
+    .karta-header{ 
+        display: flex;
+gap: 30px;
+margin-top: 30px;
+       
+    }
+}
+
