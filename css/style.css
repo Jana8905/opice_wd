@@ -18,7 +18,7 @@
 }
 
 .opicky {
-    background-color:rgb(255, 248, 224);
+    background-color: rgb(255, 248, 224);
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -42,7 +42,7 @@
 }
 
 .mlade {
-    background-color:rgb(255, 248, 224);
+    background-color: rgb(255, 248, 224);
 }
 
 .barva {
@@ -260,39 +260,43 @@
     }
 }
 
-.tlacitko-mladata{
-    
+.tlacitko-mladata {
+
     max-width: 300px;
     background-color: rgb(255, 196, 0);
 }
 
-.tlacitko-chov{
-       max-width: 150px;
-    background-color:rgb(255, 196, 0);
-}
-.tlacitka{
-
-  gap: 50px;
+.tlacitko-chov {
+    max-width: 150px;
+    background-color: rgb(255, 196, 0);
 }
 
+.tlacitka {
 
-.laska{
+    gap: 50px;
+}
+
+
+.laska {
     font-size: 30px;
 }
 
-.odber-section{
+.odber-section {
     margin-top: 200px;
 }
-.opice-sekce{
+
+.opice-sekce {
     margin-top: 100px;
 }
-.duvera{
-     margin-top: -50px;
-     margin-bottom: 100px;
-text-align: center;
+
+.duvera {
+    margin-top: -50px;
+    margin-bottom: 100px;
+    text-align: center;
 
 
 }
+
 .kontaktafoto {
     display: flex;
     justify-content: space-between;
@@ -320,25 +324,27 @@ text-align: center;
 }
 
 
-.spirala{
+.spirala {
     position: absolute;
 }
-.spirala-footer{
+
+.spirala-footer {
     position: relative;
     top: -550px;
-left: 400px;
+    left: 400px;
 }
-.reference{
+
+.reference {
     margin-top: 50px;
 }
 
-.karta-kontakt{
+.karta-kontakt {
     gap: 30px;
     display: flex;
     justify-content: center;
 }
 
-.mapa{
+.mapa {
     margin-top: 50px;
     display: flex;
     gap: 50px;
@@ -346,11 +352,19 @@ left: 400px;
 
 
 @media (min-width: 1200px) {
-    .karta-header{ 
+    .karta-header {
         display: flex;
-gap: 30px;
-margin-top: 30px;
-       
+        gap: 30px;
+        margin-top: 30px;
+
     }
 }
 
+.karta-header{
+    margin-top: 10px;
+}
+
+.certifikatek{
+    display: flex;
+justify-content: center;
+}
