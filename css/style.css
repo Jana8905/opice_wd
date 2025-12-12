@@ -17,6 +17,34 @@
 
 }
 
+.opice-sekce {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.duvera {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.kontaktafoto {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.home-section {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
 .opicky {
     background-color: rgb(255, 248, 224);
     padding-top: 20px;
@@ -201,6 +229,13 @@
     font-style: normal;
 }
 
+.odber-section {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
 .cena {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -263,22 +298,30 @@
 .tlacitko-mladata {
 
     max-width: 300px;
-    background-color: rgb(255, 196, 0);
+
+
+}
+
+.nahoru {
+    margin-top: -150px;
 }
 
 .tlacitko-chov {
     max-width: 150px;
-    background-color: rgb(255, 196, 0);
+
 }
 
 .tlacitka {
-
+    margin-top: -100px;
     gap: 50px;
 }
 
 
 .laska {
-    font-size: 30px;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+
 }
 
 .odber-section {
@@ -338,11 +381,8 @@
     margin-top: 50px;
 }
 
-.karta-kontakt {
-    gap: 30px;
-    display: flex;
-    justify-content: center;
-}
+
+
 
 .mapa {
     margin-top: 50px;
@@ -357,14 +397,27 @@
         gap: 30px;
         margin-top: 30px;
 
+
     }
 }
 
-.karta-header{
+.karta-header {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.karta {
     margin-top: 10px;
 }
 
-.certifikatek{
+.certifikatek {
     display: flex;
-justify-content: center;
+    justify-content: center;
+}
+
+
+footer svg {
+    z-index: -8888;
 }
