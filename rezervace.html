@@ -24,7 +24,7 @@
         crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg nadpisek">
         <div class="container ">
-            <a class="navbar-brand" href="#">Makakovo</a>
+            <a class="navbar-brand" href="home.html">Makakovo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
         </div>
     </nav>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#FFF8E0" fill-opacity="1"
+        <path fill="#f9e79f" fill-opacity="1"
             d="M0,128L80,117.3C160,107,320,85,480,85.3C640,85,800,107,960,106.7C1120,107,1280,85,1360,74.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
         </path>
     </svg>
@@ -59,8 +59,8 @@
     <div class="container karta-kontakt">
         <div class="nahoru">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="card karta-header">
+                <div class="col-md-6  mb-3">
+                    <div class="card karta-header h-100 ">
                         <div class="card-body">
                             <h5 class="card-title">Kontakty
                             </h5>
@@ -80,11 +80,12 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card karta-header">
+                <div class="col-md-6  mb-3">
+
+                    <div class="card karta-header h-100">
                         <div class="card-body ">
-                            <h5 class="card-title">Očekávání</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">pro odeslání formuláře</h6>
+                            <h5 class="card-title pb-3">Očekávání</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary pb-3">pro odeslání formuláře</h6>
                             <p class="card-text">Očekávání po odeslání formuláře
                                 Ozveme se vám do 48 hodin
                                 Domluvíme si telefonickou konzultaci
@@ -95,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 h-100">
                     <div class="card karta-header">
                         <div class="card-body">
                             <h5 class="card-title">Možnosti návštěvy</h5>
@@ -122,35 +123,61 @@
                         </div>
                     </div>
                 </div>
+              
+                    <div class="col-md-6 py-2 px-2">
+                          <div class="formular-header">
+                        <div class="border rounded p-3">
 
-                <div class="col-md-6 card-body py-2 px-2">
-                    <div class="mb-3">
-                        <label for="formFile" class="form-label">Nahrajte vyplněný formulář pro CHS Opicky Makak</label>
-                        <input class="form-control" type="file" id="formFile">
+                            <h5 class="mb-3">Formulář zájemce o opičce</h5>
+
+
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Jméno a příjmení</label>
+                                <input type="text" class="form-control" id="name" placeholder="Vaše jméno" required>
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="vas@email.cz" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Telefon</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="+420 XXX XXX XXX"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="preference" class="form-label">O co máte zájem?</label>
+                                <select class="form-select" id="preference" required>
+                                    <option value="">Vyberte možnost</option>
+                                    <option>opička z aktuálního vrhu</option>
+                                    <option>Rezervace z plánovaného vrhu</option>
+                                </select>
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="conditions" class="form-label">Vaše životní podmínky</label>
+                                <textarea class="form-control" id="conditions" rows="3"
+                                    placeholder="Byt / dům, zahrada, kolik času můžete psovi věnovat…"></textarea>
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="experience" class="form-label">Máte zkušenosti s opičky</label>
+                                <textarea class="form-control" id="experience" rows="2"
+                                    placeholder="Ano / ne, případně jaké…"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">
+                                Odeslat formulář
+                            </button>
+                        </div>
                     </div>
-
-                    <div class="mb-3">
-                        <label for="formFileMultiple" class="form-label">Nahrajte další dokumenty pro CHS Opicky Makak
-                            (volitelné)</label>
-                        <input class="form-control" type="file" id="formFileMultiple" multiple>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="formFileDisabled" class="form-label">Nahrávání dočasně zakázáno</label>
-                        <input class="form-control" type="file" id="formFileDisabled" disabled>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="formFileSm" class="form-label">Nahrát menší dokument (např. potvrzení)</label>
-                        <input class="form-control form-control-sm" id="formFileSm" type="file">
-                    </div>
-
-                    <div>
-                        <label for="formFileLg" class="form-label">Nahrát hlavní dokument pro CHS Opicky Makak</label>
-                        <input class="form-control form-control-lg" id="formFileLg" type="file">
-                    </div>
-
                 </div>
+
             </div>
         </div>
     </div>

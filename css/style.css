@@ -66,7 +66,7 @@
 
 
 .nadpisek {
-    background-color: rgb(255, 248, 224);
+    background-color: #f9e79f;
 }
 
 .mlade {
@@ -193,10 +193,17 @@
 
 }
 
+
 .potreby {
     max-width: 100%;
     display: flex;
     margin-top: 100px;
+}
+
+.formular-header {
+    margin-top: 20px;
+
+    background-color: rgb(255, 248, 224);
 }
 
 .aha {
@@ -369,6 +376,8 @@
 
 .spirala {
     position: absolute;
+    left: 5%;
+    top: 10%;
 }
 
 .spirala-footer {
